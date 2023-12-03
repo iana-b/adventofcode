@@ -1,5 +1,5 @@
 # 1.1
-with open('input.txt', 'r') as file:
+with open('inputs/1.txt', 'r') as file:
     lines = file.readlines()
 
 summa = 0
@@ -39,7 +39,7 @@ str_to_digits = {
 }
 lst_str_num = list(str_to_digits.keys())
 
-with open('input.txt', 'r') as file:
+with open('inputs/1.txt', 'r') as file:
     lines = file.readlines()
 
 # lines = ['two1nine',
