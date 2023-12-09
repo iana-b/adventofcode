@@ -9,12 +9,12 @@ print(d)
 
 
 def find_ways(time, dist):
-    ways = []
+    ways = 0
     for i in range(1, time):
         way = (time - i) * i
         if way > dist:
-            ways.append(way)
-    return len(ways)
+            ways += 1
+    return ways
 
 
 answer = 1
